@@ -12,7 +12,7 @@ import {
   Row,
   Table,
 } from "react-bootstrap";
-import styles from "../../styles/main.module.scss";
+import styles from "../styles/main.module.scss";
 import { useRouter } from "next/router";
 
 export default function NavbarComponent() {
@@ -57,7 +57,7 @@ export default function NavbarComponent() {
             <Nav.Link className="mx-2 text-white" onClick={() => router.push('/')}>
               About
             </Nav.Link>
-            <Nav.Link className="mx-2 text-white" href="#platform">
+            <Nav.Link className="mx-2 text-white" href="#platform" onClick={() => router.push('./platform')}>
               Platform
             </Nav.Link>
             <Nav.Link className="mx-2 text-white" onClick={() => router.push('./contact')}>

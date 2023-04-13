@@ -14,7 +14,7 @@ import {
   Table,
 } from "react-bootstrap";
 import { IconMessage2, IconMessageCircle2 } from "@tabler/icons";
-import styles from "../../styles/main.module.scss";
+import styles from "../styles/main.module.scss";
 import { useRouter } from "next/router";
 import { ClipLoader } from "react-spinners";
 import NavbarComponent from "../common/NavbarComponent";
@@ -59,7 +59,7 @@ export default function ContectComponent() {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 1000 200"
+                viewBox="0 0 1000 229"
                 preserveAspectRatio="none"
               >
                 <path
@@ -86,7 +86,7 @@ export default function ContectComponent() {
             </div>
             <div className="col"></div>
           </section>
-          <section className="row mt-4">
+          <section className={`${styles.detailSection} row`}>
             <div className={`${styles.detailsForm} col-md-6`}>
               <h1>
                 Send Your <span>Details</span>

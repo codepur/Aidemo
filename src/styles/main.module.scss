@@ -71,14 +71,15 @@
 
 .contectImage {
     height: 200px;
-    padding: 77px 20px 0 0;
+    padding: 58px 20px 0 0;
 }
 
 .contectMainImage {
     z-index: 1;
     position: absolute;
-    right: 2px;
     height: 720px;
+    right: 0px;
+    left: 600px;
 }
 
 .contectText {
@@ -93,6 +94,10 @@
     background-color: #39b54a !important;
     padding: 0px 8px 0 8px;
     margin-left: 35px;
+}
+
+.detailSection {
+    margin-top: 100px;
 }
 
 .elementorShapeFill {
@@ -227,4 +232,22 @@
         color: #ffff !important;
         border-radius: 0px;
     }
+}
+
+.platformfont{
+    font-family: "Roboto", Sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1.2em;
+}
+
+.desktopimg{
+    width: 650px;
+   height: 325px;
+}
+
+.svgComponent{
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
 }
